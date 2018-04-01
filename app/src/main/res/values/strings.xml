@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Quiz app</string>
+    <string name="game_description">This game presents as a constant risk. Each question you get right doubles the prize, but the first wrong answer makes you lose everything</string>
+    <string name="prize_1">First question is worth 100 points</string>
+    <string name="start_button">start</string>
+    <string name="submit">submit</string>
+    <string name="next_question">next question</string>
+
+
+
+    <string name="question_1">What is the distance between Earth and the Sun?</string>
+    <string name="question_1_answer_1">300.000.000 km</string>
+    <string name="question_1_answer_2">150.000.000 km</string>
+    <string name="question_1_answer_3">80.000.000 km</string>
+    <string name="question_1_answer_4">20.000.000 km</string>
+    <string name="question_1_wrong_answer">Well, it could have been that, but unfortunately for you the correct answer is B: 150.000.000 KM.</string>
+    <string name="question_1_fun_fact">It takes light 8 minutes and 15 seconds to reach Planet Earth</string>
+    <string name="fun_fact">Fun fact:</string>
+    <string name="score">Congratulations, you got it right! Your current score is:</string>
+
+    <string name="question_2">What is a light-year?</string>
+    <string name="question_2_answer_1">a unit that measures time</string>
+    <string name="question_2_answer_2">a unit that measures distance</string>
+    <string name="question_2_answer_3">a unit that measures speed</string>
+    <string name="question_2_answer_4">a unit that measures acceleration</string>
+    <string name="question_2_wrong_answer">Sure, why not, but not exactly what it really is. Correct answer was B: A unit that measures distance</string>
+    <string name="question_2_fun_fact">If you return back to Earth after a trip through the Universe at light speed, you will be younger than your twin brother</string>
+
+    <string name="question_3">If you are sitting in a house that has all its windows pointing to South, what color is the bear outside?</string>
+    <string name="question_3_answer_1">brown</string>
+    <string name="question_3_answer_2">black</string>
+    <string name="question_3_answer_3">white</string>
+    <string name="question_3_answer_4">spotted</string>
+    <string name="question_3_wrong_answer">I know it sounds like it makes no sense, but think about it: if all windows are facing South, then you must be at the North Pole, thus the correct answer being C: white</string>
+    <string name="question_3_fun_fact">You can find penguins only at the South Pole</string>
+
+    <string name="question_4">Product X was introduced to the market last year with the price of 100 units. The price was lowered with 10% 3 months ago. The same product will have its price raised by 10%. What will the new price be?</string>
+    <string name="question_4_wrong_answer">That math&#8230; If the product price now is 90, this means that when it will be raised again by 10% it will in the end be 99</string>
+    <string name="question_4_fun_fact">Did you know that whenever you see a .99 price, that iw only there to mess with your head? They trick your mind into believing that the price is lower than it really is.</string>
+
+    <string name="question_5">Two of the following atmospheric pressure measuring units have the same value (1 unit of one is equal to 1 unit of the other). Can you guess witch?</string>
+    <string name="question_5_answer_1">Torr</string>
+    <string name="question_5_answer_2">Pascal</string>
+    <string name="question_5_answer_3">mmHg</string>
+    <string name="question_5_answer_4">Bar</string>
+    <string name="question_5_wrong_answer">I admit that this could be considered a niche question, but still, it\'s common knowledge so it counts. The correct answers were A and C: Torr and mmHg. </string>
+    <string name="question_5_fun_fact">The measuring unit Torr comes from the name of its inventor: Evangelista Torricelli, an Italian physicist and mathematician</string>
+
+    <string name="question_6">Let\'s imagine a whole 2m in diameter was dug all the way from the North Pole to the South Pole. If you fall inside it what will happen to you? (For the sake of this question let\'s imagine that the temperature and pressure are the same as on Earth)</string>
+    <string name="question_6_answer_1">You will fall all the way to the other end and emerge with no problem from the whole</string>
+    <string name="question_6_answer_2">You will fall close to the other end, but get attracted back until you eventually stabilize inside Earth\'s center</string>
+    <string name="question_6_answer_3">You will fall to the other end but because of the speed you are traveling at, you will be flown hundreds of feet in the air</string>
+    <string name="question_6_wrong_answer">This is only theoretical, but it looks like if that would happen, you would be able crawl easily out of the whole due to force conservation. Option 1 was the correct one</string>
+    <string name="question_6_fun_fact">The Kola Superdeep Borehole is 12,262 meters deep and reigns as the deepest hole. It took almost 20 years to reach that 7.5-mile depth—only half the distance or less to the mantle.</string>
+
+    <string name="reset_button">reset</string>
+    <string name="better_luck_next_time">Better luck next time!</string>
+    <string name="congrats">You have answered all questions correctly and finished the game. At this point we are working on getting more questions for you, but until then keep up the good work!</string>
+    <string name="close">close</string>
+    <string name="get_score">get score</string>
+    <string name="final_score">Congratulations, you got it right! Your final score is:</string>
+</resources>

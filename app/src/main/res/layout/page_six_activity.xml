@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.quizapp.pageSixActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/logo_padding"
+            android:src="@drawable/logo" />
+
+        <TextView
+            style="@style/customText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/answer_margin"
+            android:background="@drawable/text_backgrounds"
+            android:padding="@dimen/answer_padding"
+            android:text="@string/question_6"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/question_text_size" />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+            <RadioButton android:id="@+id/radio_A"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question_6_answer_1"
+                android:onClick="radioButton1"
+                android:padding="@dimen/question_padding"
+                android:textSize="@dimen/question_text_size"/>
+            <RadioButton android:id="@+id/radio_B"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question_6_answer_2"
+                android:onClick="radioButton2"
+                android:padding="@dimen/question_padding"
+                android:textSize="@dimen/question_text_size"/>
+            <RadioButton android:id="@+id/radio_C"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question_6_answer_3"
+                android:onClick="radioButton3"
+                android:padding="@dimen/question_padding"
+                android:textSize="@dimen/question_text_size"/>
+        </RadioGroup>
+        <Button
+            style="@style/customText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/question_margin"
+            android:layout_weight="1"
+            android:background="@drawable/text_backgrounds"
+            android:padding="@dimen/answer_padding"
+            android:text="@string/submit"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/question_text_size"
+            android:onClick="submit"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.quizapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/logo_padding"
+            android:src="@drawable/logo" />
+
+        <TextView
+            style="@style/customText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/answer_margin"
+            android:background="@drawable/text_backgrounds"
+            android:padding="@dimen/answer_padding"
+            android:text="@string/question_4"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/question_text_size" />
+
+        <EditText
+            android:id="@+id/question_four_edit_text"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:inputType="text"
+            android:padding="@dimen/answer_padding"
+            style="@style/customText"/>
+        <Button
+            style="@style/customText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/question_margin"
+            android:layout_weight="1"
+            android:background="@drawable/text_backgrounds"
+            android:padding="@dimen/answer_padding"
+            android:text="@string/submit"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/question_text_size"
+            android:onClick="submit"/>
+    </LinearLayout>
+</ScrollView>

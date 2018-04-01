@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.quizapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/logo_padding"
+            android:src="@drawable/logo" />
+        <TextView
+            style="@style/customText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/answer_margin"
+            android:background="@drawable/text_backgrounds"
+            android:padding="@dimen/answer_padding"
+            android:text="@string/question_2"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/question_text_size" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                style="@style/customText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/question_margin"
+                android:layout_weight="1"
+                android:background="@drawable/text_backgrounds"
+                android:padding="@dimen/answer_padding"
+                android:text="@string/question_2_answer_1"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/question_text_size"
+                android:onClick="incorrectAnswer2"
+                />
+
+            <Button
+                style="@style/customText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/question_margin"
+                android:layout_weight="1"
+                android:background="@drawable/text_backgrounds"
+                android:padding="@dimen/answer_padding"
+                android:text="@string/question_2_answer_2"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/question_text_size"
+                android:onClick="correctAnswer2"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                style="@style/customText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/question_margin"
+                android:layout_weight="1"
+                android:background="@drawable/text_backgrounds"
+                android:padding="@dimen/answer_padding"
+                android:text="@string/question_2_answer_3"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/question_text_size"
+                android:onClick="incorrectAnswer2"/>
+
+            <Button
+                style="@style/customText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/question_margin"
+                android:layout_weight="1"
+                android:background="@drawable/text_backgrounds"
+                android:padding="@dimen/answer_padding"
+                android:text="@string/question_2_answer_4"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/question_text_size"
+                android:onClick="incorrectAnswer2"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

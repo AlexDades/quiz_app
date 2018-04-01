@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/logo_padding"
+            android:src="@drawable/logo" />
+
+        <TextView
+            style="@style/customText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/answer_margin"
+            android:background="@drawable/text_backgrounds"
+            android:padding="@dimen/answer_padding"
+            android:text="@string/question_5"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/question_text_size" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+            <CheckBox android:id="@+id/checkbox_A"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question_5_answer_1"
+                android:onClick="onCheckboxClickedA"
+                android:padding="@dimen/description_padding"
+                />
+
+            <CheckBox
+                android:id="@+id/checkbox_B"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onCheckboxClickedB"
+                android:text="@string/question_5_answer_2"
+                android:padding="@dimen/description_padding"/>
+        </LinearLayout>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+            <CheckBox android:id="@+id/checkbox_C"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question_5_answer_3"
+                android:onClick="onCheckboxClickedC"
+                android:padding="@dimen/description_padding"/>
+            <CheckBox android:id="@+id/checkbox_D"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question_5_answer_4"
+                android:onClick="onCheckboxClickedD"
+                android:padding="@dimen/description_padding"/>
+        </LinearLayout>
+        <Button
+            style="@style/customText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/question_margin"
+            android:layout_weight="1"
+            android:background="@drawable/text_backgrounds"
+            android:padding="@dimen/answer_padding"
+            android:text="@string/submit"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/question_text_size"
+            android:onClick="submit"/>
+    </LinearLayout>
+</ScrollView>

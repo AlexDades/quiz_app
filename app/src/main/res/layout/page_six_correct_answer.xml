@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/final_score"
+            android:textSize="@dimen/description_text_size"
+            android:textStyle="bold"
+            android:padding="@dimen/description_padding"
+            style="@style/customText"
+            android:typeface="serif"
+            android:layout_weight="1"/>
+
+        <Button
+            style="@style/customText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/question_margin"
+            android:layout_weight="1"
+            android:background="@drawable/text_backgrounds"
+            android:padding="@dimen/answer_padding"
+            android:text="@string/get_score"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/question_text_size"
+            android:onClick="getScore" />
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/final_score"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/description_text_size"
+            android:textStyle="bold"
+            android:padding="@dimen/description_padding"
+            style="@style/customText"
+            android:typeface="serif"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/congrats"
+            android:textSize="@dimen/description_text_size"
+            android:textStyle="bold"
+            android:padding="@dimen/description_padding"
+            style="@style/customText"
+            android:typeface="serif"
+            android:layout_weight="1"/>
+        <Button
+            style="@style/customText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/question_margin"
+            android:layout_weight="1"
+            android:background="@drawable/text_backgrounds"
+            android:padding="@dimen/answer_padding"
+            android:text="@string/close"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/question_text_size"
+            android:onClick="close" />
+    </LinearLayout>
+</ScrollView>

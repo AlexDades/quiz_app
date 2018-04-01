@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="logo_padding">12dp</dimen>
+    <dimen name="description_text_size">28sp</dimen>
+    <dimen name="description_padding">24dp</dimen>
+
+    <dimen name="question_text_size">18sp</dimen>
+    <dimen name="question_margin">12dp</dimen>
+    <dimen name="question_padding">12dp</dimen>
+    <dimen name="answer_padding">18dp</dimen>
+    <dimen name="answer_margin">12dp</dimen>
+
+
+    <style name="customText">
+        <item name="android:gravity">center</item>
+    </style>
+
+
+
+</resources>
